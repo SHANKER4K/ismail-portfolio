@@ -1,11 +1,11 @@
 import "./globals.css"
-import Hero from "@/components/hero";
-import About from "@/components/about";
-import Projects from "@/components/projects";
-import Skills from "@/components/skills";
-import Experience from "@/components/experience";
-import Contact from "@/components/contact";
-import ThemeToggle from "@/components/theme-toggle";
+import Hero from "@/app/components/hero";
+import About from "@/app/components/about";
+import Projects from "@/app/components/projects";
+import Skills from "@/app/components/skills";
+import Experience from "@/app/components/experience";
+import Contact from "@/app/components/contact";
+import ThemeToggle from "@/app/components/theme-toggle";
 
 export default function Home() {
   return (
