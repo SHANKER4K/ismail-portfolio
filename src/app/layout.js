@@ -2,13 +2,13 @@ import localFont from "next/font/local";
 import { Poppins } from "next/font/google";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/context/ThemeContext";
+import { ThemeProvider } from "@/app/components/ThemeContext";
 
 const poppins = Poppins({
-  subsets: ['latin'],
-  weight: '400',
-  variable: "--font-poppins"
-})
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-poppins",
+});
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,9 +32,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <ThemeProvider>
-          {children}
-        </ThemeProvider>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
