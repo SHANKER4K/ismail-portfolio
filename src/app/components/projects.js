@@ -1,74 +1,35 @@
 "use client";
 import React from "react";
-import Image from "next/image";
-
+import Product from "./Product";
 function Projects() {
   const projects = [
     {
       title: "XO",
-      description:
-        "Description of your first project. What it does, technologies used, and your role in it.",
+      description: "Tic Tac Toe game i built it for fun while learning AI.",
       technologies: ["React", "Tailwind CSS"],
       liveLink: "https://xo-one-sepia.vercel.app",
       githubLink: "https://github.com/SHANKER4K/XO",
+      image: "https://i.ibb.co/4Vqx3ZV/image.png",
+    },
+    {
+      title: "Riwaqi",
+      description: "E-Commerce Web Site.",
+      technologies: ["NextJS", "Tailwind CSS", "Postgres", "Drizzle"],
+      liveLink: "https://riwaqi-git-master-shanker4ks-projects.vercel.app/",
+      githubLink: "https://github.com/SHANKER4K/",
+      image: "https://i.ibb.co/xKJZv87H/image.jpg",
     },
   ];
 
   return (
-    <section
-      id="projects"
-      className="py-12 sm:py-20 bg-neutral-50 dark:bg-neutral-900"
-    >
+    <section id="projects" className="py-12 sm:py-20 bg-popover">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12">
           Projects
         </h2>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {projects.map((project, index) => (
-            <div
-              key={index}
-              className="bg-white dark:bg-neutral-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-all duration-300 flex flex-col shadow-lg dark:shadow-neutral-800"
-            >
-              {/* Placeholder div instead of Image component */}
-              <div className="h-48 w-full bg-neutral-200 dark:bg-neutral-700"></div>
-
-              <div className="p-4 sm:p-6 flex-1 flex flex-col">
-                <h3 className="text-lg sm:text-xl font-bold mb-2">
-                  {project.title}
-                </h3>
-                <p className="text-neutral-600 dark:text-gray-300 mb-4 text-sm sm:text-base flex-1">
-                  {project.description}
-                </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.technologies.map((tech, techIndex) => (
-                    <span
-                      key={techIndex}
-                      className="px-2 sm:px-3 py-1 bg-neutral-100 dark:bg-neutral-700 text-neutral-800 dark:text-gray-200 rounded-full text-xs sm:text-sm"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-                <div className="flex space-x-4">
-                  <a
-                    href={project.liveLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sky-600 dark:text-sky-400 hover:text-sky-700 dark:hover:text-sky-300 text-sm sm:text-base"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href={project.githubLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sky-600 dark:text-sky-400 hover:text-sky-700 dark:hover:text-sky-300 text-sm sm:text-base"
-                  >
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
+            <Product key={project.title + `-${index}`} project={project} />
           ))}
         </div>
       </div>
