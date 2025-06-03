@@ -1,7 +1,5 @@
 # Ismail's Portfolio Website
 
-![Portfolio Banner](https://i.ibb.co/4Vqx3ZV/image.png)
-
 ## 🌟 Overview
 
 A modern, responsive portfolio website built with Next.js and Tailwind CSS. This portfolio showcases my projects, skills, and professional experience as a Front-end Developer.
