@@ -102,8 +102,7 @@ The portfolio can be easily deployed on Vercel:
 ## 📧 Contact
 
 - **Email**: medjahdiismail1998@gmail.com
-- **LinkedIn**: [Ismail Medjahdi](https://www.linkedin.com/in/shan-ker-826a10257/)
-- **Twitter**: [@IsmailMedjahdi](https://twitter.com/IsmailMedjahdi)
+- **LinkedIn**: [Ismail Medjahdi](https://www.linkedin.com/in/medjahdi-ismail-826a10257/)
 
 ## 📄 License
 
