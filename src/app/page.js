@@ -1,21 +1,22 @@
-import "./globals.css"
-import Hero from "@/app/components/hero";
-import About from "@/app/components/about";
-import Projects from "@/app/components/projects";
-import Skills from "@/app/components/skills";
-import Experience from "@/app/components/experience";
-import Contact from "@/app/components/contact";
-import ThemeToggle from "@/app/components/theme-toggle";
+import Hero from "./components/hero";
+import About from "./components/about";
+import Skills from "./components/skills";
+import Projects from "./components/projects";
+import Experience from "./components/experience";
+import Contact from "./components/contact";
+import { ModeToggle } from "@/app/components/theme-toggle";
 
 export default function Home() {
   return (
-    <main className="bg-white dark:bg-neutral-900 text-neutral-900 dark:text-white transition-colors duration-300">
-      <ThemeToggle />
+    <main>
+      <div className="flex justify-end">
+        <ModeToggle />
+      </div>
       <Hero />
       <About />
       <Skills />
-      <Projects />
       <Experience />
+      <Projects />
       <Contact />
     </main>
   );
