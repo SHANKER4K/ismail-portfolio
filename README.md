@@ -1,7 +1,7 @@
 # Ismail's Portfolio Website
 
 ## 🌟 Preview
-  ![A sneak peak](https://ismailshk.vercel.app/)
+  [A sneak peak](https://ismailshk.vercel.app/)
 ## 🌟 Overview
 
 A modern, responsive portfolio website built with Next.js and Tailwind CSS. This portfolio showcases my projects, skills, and professional experience as a Front-end Developer.
