@@ -17,10 +17,10 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS. This
 
 ## 📸 Screenshots
 
-### Homepage
-![Homepage](https://i.ibb.co/4Vqx3ZV/image.png)
 
 ### Projects
+![Homepage](https://i.ibb.co/4Vqx3ZV/image.png)
+
 ![Projects](https://i.ibb.co/xKJZv87H/image.jpg)
 
 ## 🛠️ Technologies Used
