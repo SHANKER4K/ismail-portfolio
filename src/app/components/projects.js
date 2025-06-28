@@ -14,8 +14,7 @@ function Projects() {
         "Drizzle",
         "NeonDB",
       ],
-      liveLink:
-        "https://autovendr-q1y5mpc7m-shanker4ks-projects.vercel.app/products/inventory",
+      liveLink: "https://autovendr-q1y5mpc7m-shanker4ks-projects.vercel.app",
       githubLink: "https://github.com/SHANKER4K",
       image: "https://i.ibb.co/WNjc626d/image.png",
     },
