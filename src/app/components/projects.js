@@ -4,17 +4,32 @@ import Product from "./Product";
 function Projects() {
   const projects = [
     {
-      title: "XO",
-      description: "Tic Tac Toe game i built it for fun while learning AI.",
-      technologies: ["React", "Tailwind CSS"],
-      liveLink: "https://xo-one-sepia.vercel.app",
-      githubLink: "https://github.com/SHANKER4K/XO",
-      image: "https://i.ibb.co/4Vqx3ZV/image.png",
+      title: "AutoVendr",
+      description:
+        "Admin dashboard for Riwaqi e-commerce platform with inventory management and analytics",
+      technologies: [
+        "NextJS",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Drizzle",
+        "NeonDB",
+      ],
+      liveLink:
+        "https://autovendr-q1y5mpc7m-shanker4ks-projects.vercel.app/products/inventory",
+      githubLink: "https://github.com/SHANKER4K",
+      image: "https://i.ibb.co/WNjc626d/image.png",
     },
     {
       title: "Riwaqi",
-      description: "E-Commerce Web Site.",
-      technologies: ["NextJS", "Tailwind CSS", "Postgres", "Drizzle"],
+      description:
+        "Modern e-commerce platform with secure payment processing and user management",
+      technologies: [
+        "NextJS",
+        "Tailwind CSS",
+        "PostgreSQL",
+        "Drizzle",
+        "NeonDB",
+      ],
       liveLink: "https://riwaqi-git-master-shanker4ks-projects.vercel.app/",
       githubLink: "https://github.com/SHANKER4K/",
       image: "https://i.ibb.co/xKJZv87H/image.jpg",
