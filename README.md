@@ -6,6 +6,8 @@
 
 ## 🌟 Overview
 
+[A sneak peak](https://ismailshk.vercel.app/)
+
 A modern, responsive portfolio website built with Next.js and Tailwind CSS. This portfolio showcases my projects, skills, and professional experience as a Front-end Developer.
 
 ## ✨ Features
@@ -13,7 +15,7 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS. This
 - **Responsive Design**: Fully optimized for all device sizes
 - **Dark/Light Theme**: Toggle between dark and light modes
 - **Timeline Component**: Interactive timeline to showcase experience
-- **Project Showcase**: Gallery of projects with descriptions and links
+- **Project Showcase**: Gallery of projects awith descriptions and links
 - **Skills Visualization**: Visual representation of technical skills
 - **Contact Form**: Integrated form for easy communication
 - **Animations**: Smooth animations and transitions using Framer Motion
