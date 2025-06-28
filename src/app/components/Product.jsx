@@ -8,7 +8,7 @@ function Product({ project }) {
         className={`bg-card rounded-xl border-border`}
         isRevese
       >
-        <div className=" rounded-lg overflow-hidden transition-all duration-300 flex flex-col shadow-lg bg-card-">
+        <div className=" rounded-lg overflow-hidden transition-all duration-300 flex flex-col shadow-lg bg-card">
           {/* Placeholder div instead of Image component */}
           <div className="rounded-xl w-full">
             <img src={project.image} />

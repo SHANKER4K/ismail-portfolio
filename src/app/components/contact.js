@@ -5,7 +5,7 @@ import MyForm from "@/app/components/form";
 
 function Contact() {
   return (
-    <section id="contact" className="py-16 sm:py-24 bg-popover">
+    <section id="contact" className="py-16 sm:py-24 ">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <h2 className="text-3xl sm:text-5xl font-bold mb-12 text-center">
           Get In Touch

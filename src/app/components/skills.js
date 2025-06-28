@@ -11,6 +11,14 @@ function Skills() {
       { name: "HTML/CSS", level: 70 },
       { name: "Tailwind CSS", level: 80 },
     ],
+    Backend: [
+      { name: "Node.js", level: 50 },
+      { name: "Next.js", level: 50 },
+      { name: "Express.js", level: 30 },
+      { name: "PostgreSQL", level: 50 },
+      { name: "Drizzle", level: 60 },
+      { name: "RESTful APIs", level: 65 },
+    ],
     "Tools & Others": [
       { name: "Git", level: 60 },
       { name: "VS Code", level: 90 },
@@ -37,7 +45,7 @@ function Skills() {
                 {categorySkills.map((skill) => (
                   <div key={skill.name}>
                     <div className="flex justify-between mb-2">
-                      <span className=" text-sm sm:text-base">
+                      <span className=" text-sm sm:text-base font-bold">
                         {skill.name}
                       </span>
                       <span className=" text-sm sm:text-base translate-all duration-75 ease-in-out">
@@ -46,7 +54,7 @@ function Skills() {
                     </div>
                     <div className="w-full  rounded-full h-2 sm:h-2.5">
                       <div
-                        className="bg-sky-500 h-2 sm:h-2.5 rounded-full transition-all duration-500"
+                        className="bg-primary h-2 sm:h-2.5 rounded-full transition-all duration-500"
                         style={{
                           width: `${
                             value < skill.level ? value : skill.level

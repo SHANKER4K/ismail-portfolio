@@ -1,5 +1,9 @@
 # Ismail's Portfolio Website
 
+## 🌟 Preview
+
+[Ismail Medjahdi](https://www.linkedin.com/in/medjahdi-ismail-826a10257/)
+
 ## 🌟 Overview
 
 A modern, responsive portfolio website built with Next.js and Tailwind CSS. This portfolio showcases my projects, skills, and professional experience as a Front-end Developer.
@@ -17,11 +21,12 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS. This
 
 ## 📸 Screenshots
 
-### Homepage
-![Homepage](https://i.ibb.co/4Vqx3ZV/image.png)
-
 ### Projects
-![Projects](https://i.ibb.co/xKJZv87H/image.jpg)
+
+<div style="display: flex; flex-direction: row; gap: 10px;">
+    <img src="https://i.ibb.co/xKJZv87H/image.jpg" alt="Projects" style="width: 300px; height: auto;">
+    <img src="https://i.ibb.co/WNjc626d/image.png" alt="Projects" style="width: 300px; height: auto;">
+</div>
 
 ## 🛠️ Technologies Used
 
@@ -43,12 +48,14 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS. This
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/ismail-portfolio.git
 cd ismail-portfolio
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 # or
@@ -58,6 +65,7 @@ pnpm install
 ```
 
 3. Run the development server:
+
 ```bash
 npm run dev
 # or

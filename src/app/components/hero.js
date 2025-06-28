@@ -78,14 +78,14 @@ function Hero() {
             <span className="underline decoration-sky-500">Ismail</span>
           </p>
           <TextEffect per="word" variants={fancyVariants}>
-            Front-end Developer.
+            Full-Stack Developer.
           </TextEffect>
         </div>
         <div className="flex flex-wrap gap-2">
           {socials.map((val) => (
             <a key={val.name} href={val.link} target="_blank">
               <div
-                className={`flex items-center font-bold  gap-2 px-5 py-3 rounded-full hover:bg-primary transition-colors`}
+                className={`flex items-center font-bold  gap-2 px-5 py-3 rounded-full hover:bg-accent hover:text-accentbg-accent-foreground transition-colors`}
               >
                 {val.logo}
                 {val.name}
