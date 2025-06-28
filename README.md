@@ -1,9 +1,13 @@
 # Ismail's Portfolio Website
 
 ## 🌟 Preview
+<<<<<<< HEAD
 
 [Ismail Medjahdi](https://www.linkedin.com/in/medjahdi-ismail-826a10257/)
 
+=======
+  [A sneak peak](https://ismailshk.vercel.app/)
+>>>>>>> 195785f7ca72c7748191ee28f08847b30fa6132a
 ## 🌟 Overview
 
 [A sneak peak](https://ismailshk.vercel.app/)
@@ -23,12 +27,20 @@ A modern, responsive portfolio website built with Next.js and Tailwind CSS. This
 
 ## 📸 Screenshots
 
+<<<<<<< HEAD
 ### Projects
 
 <div style="display: flex; flex-direction: row; gap: 10px;">
     <img src="https://i.ibb.co/xKJZv87H/image.jpg" alt="Projects" style="width: 300px; height: auto;">
     <img src="https://i.ibb.co/WNjc626d/image.png" alt="Projects" style="width: 300px; height: auto;">
 </div>
+=======
+
+### Projects
+![Homepage](https://i.ibb.co/4Vqx3ZV/image.png)
+
+![Projects](https://i.ibb.co/xKJZv87H/image.jpg)
+>>>>>>> 195785f7ca72c7748191ee28f08847b30fa6132a
 
 ## 🛠️ Technologies Used
 
