@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 
 function Certification() {
@@ -6,8 +6,9 @@ function Certification() {
     {
       title: "Full-Stack Web Development With Next.js",
       issuer: "NextJs",
-      date: "Issued: Jan 2023",
-      link: "https://nextjs.org/learn/certificate?course=dashboard-app&user=35891&certId=dashboard-app-35891-1752574553793",
+      date: "Issued: Jan 2025",
+      link:
+        "https://nextjs.org/learn/certificate?course=dashboard-app&user=35891&certId=dashboard-app-35891-1752574553793",
     },
     {
       title: "Front End Development with React",
@@ -15,7 +16,6 @@ function Certification() {
       date: "Issued: 02 Jun, 2025",
       link: "https://www.hackerrank.com/certificates/6dcc1b4912ed",
     },
-
   ];
 
   return (
@@ -26,11 +26,19 @@ function Certification() {
         </h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {certifications.map((cert, index) => (
-            <div key={index} className="bg-popover p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+            <div
+              key={index}
+              className="bg-popover p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+            >
               <h3 className="text-xl font-semibold mb-2">{cert.title}</h3>
               <p className="text-muted-foreground mb-1">{cert.issuer}</p>
               <p className="text-sm text-muted-foreground mb-4">{cert.date}</p>
-              <a href={cert.link} target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">
+              <a
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline"
+              >
                 View Certificate
               </a>
             </div>

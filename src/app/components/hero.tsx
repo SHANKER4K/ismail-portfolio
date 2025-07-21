@@ -41,7 +41,7 @@ function Hero() {
         scale: 1,
         color: getRandomColor(),
         transition: {
-          type: "spring",
+          type: "spring" as const,
           damping: 12,
           stiffness: 200,
         },
@@ -57,7 +57,7 @@ function Hero() {
     {
       name: "X",
       logo: <FaSquareXTwitter className="w-6 h-8" />,
-      link: "https://x.com/IsmailMedjahdi",
+      link: "https://x.com/ShkCode",
     },
     {
       name: "Mail",
@@ -87,7 +87,7 @@ function Hero() {
             {socials.map((val) => (
               <a key={val.name} href={val.link} target="_blank">
                 <div
-                  className={`flex items-center font-bold  gap-2 px-5 py-3 rounded-full hover:bg-accent hover:text-accentbg-accent-foreground transition-colors`}
+                  className={`flex items-center font-bold  gap-2 px-5 py-3 rounded-full hover:bg-primary hover:text-primary-foreground bg-secondary transition-colors`}
                 >
                   {val.logo}
                   {val.name}
