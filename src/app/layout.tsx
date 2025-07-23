@@ -32,6 +32,11 @@ export const metadata = {
     type: "website",
     provider: "vercel",
   },
+  icons: {
+    icon: "/Logo-Monochrome-SHK003.ico",
+    apple: "/public/Logo Monochrome SHK003.png",
+    shortcut: "/public/Logo Monochrome SHK003.png",
+  },
 };
 
 export default function RootLayout({ children }) {

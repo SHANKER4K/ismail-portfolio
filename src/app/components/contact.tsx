@@ -35,20 +35,7 @@ function Contact() {
                   </div>
                 </div>
 
-                <div className="flex items-center space-x-4 group transition-all duration-300 hover:translate-x-2">
-                  <div className="bg-primary/10 p-3 rounded-full">
-                    <Phone className="w-6 h-6 text-primary" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground">Phone</p>
-                    <a
-                      href="tel:+213XXXXXXXXX"
-                      className="text-base sm:text-lg hover:text-primary transition-colors"
-                    >
-                      +213 XX XX XX XX
-                    </a>
-                  </div>
-                </div>
+
 
                 <div className="flex items-center space-x-4 group transition-all duration-300 hover:translate-x-2">
                   <div className="bg-primary/10 p-3 rounded-full">

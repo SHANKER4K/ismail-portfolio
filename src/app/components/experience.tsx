@@ -23,7 +23,7 @@ export default function TimelineDemo() {
               images.map((image, index) => (
 
                 <Image
-                  key={image}
+                  key={index}
                   src={image}
                   alt="CodeWars problem solving progress"
                   width={500}

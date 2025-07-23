@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { AnimatedNumber } from "@/components/ui/animated-number";
 import { useState, useEffect } from "react";
 function Skills() {
   const skills = {
