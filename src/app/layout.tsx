@@ -81,7 +81,7 @@ export const metadata: Metadata = {
     nosnippet: false,
   },
   verification: {
-    // google: "your-actual-google-verification-code",
+    google: "fgXIud_IWt2XmIdXE9hXYw7ThvGhOPvJu5LkIkoNGOM",
     // yandex: "your-actual-yandex-verification-code",
   },
   appleWebApp: {
