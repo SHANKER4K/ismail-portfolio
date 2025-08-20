@@ -1,0 +1,26 @@
+{
+  "name": "Ismail Medjahdi Portfolio",
+  "short_name": "Ismail Portfolio",
+  "description": "Portfolio of Ismail Medjahdi, a passionate Full-Stack Developer specializing in React and Next.js",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/Logo-Monochrome-SHK003.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/Logo Monochrome SHK003.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["portfolio", "developer", "business"],
+  "lang": "en",
+  "scope": "/",
+  "prefer_related_applications": false
+}

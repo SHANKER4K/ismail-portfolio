@@ -11,7 +11,13 @@ function Product({ project }) {
         <div className=" rounded-lg overflow-hidden transition-all duration-300 flex flex-col shadow-lg bg-card">
           {/* Placeholder div instead of Image component */}
           <div className="rounded-xl w-full">
-            <img src={project.image} />
+            <img
+              src={project.image}
+              alt={`${project.title} - ${project.description}`}
+              loading="lazy"
+              width="400"
+              height="240"
+            />
           </div>
 
           <div className="p-4 sm:p-6 flex-1 flex flex-col">

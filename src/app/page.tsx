@@ -10,30 +10,30 @@ import Navbar from "./components/Navbar";
 
 export default function Home() {
   return (
-    <main>
+    <main role="main">
       <Navbar />
       <div className="flex justify-end">
         <ModeToggle />
       </div>
-      <section id="home">
+      <section id="home" aria-labelledby="hero-heading">
         <Hero />
       </section>
-      <section id='about'>
+      <section id="about" aria-labelledby="about-heading">
         <About />
       </section>
-      <section>
+      <section id="skills" aria-labelledby="skills-heading">
         <Skills />
       </section>
-      <section>
+      <section id="experience" aria-labelledby="experience-heading">
         <Experience />
       </section>
-      <section id='projects'>
+      <section id="projects" aria-labelledby="projects-heading">
         <Projects />
       </section>
-      <section>
+      <section id="certifications" aria-labelledby="certifications-heading">
         <Certification />
       </section>
-      <section id='contact'>
+      <section id="contact" aria-labelledby="contact-heading">
         <Contact />
       </section>
     </main>

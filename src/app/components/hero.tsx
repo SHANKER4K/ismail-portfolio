@@ -67,6 +67,8 @@ function Hero() {
   ];
   return (
     <BackgroundBeamsWithCollision>
+      <section id="home">
+
       <div className="flex justify-center py-20">
         <div className="flex flex-col gap-10 justify-start max-w-3xl px-4 sm:px-6 lg:px-8">
           {/* Presentation */}
@@ -74,7 +76,7 @@ function Hero() {
             <div className="animate-pulse h-3 w-3 bg-emerald-400 rounded-full text-center"></div>
             <div className="">&nbsp; Online.</div>
           </div>
-          <div className="text-3xl sm:text-4xl md:text-5xl">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl">
             <p className="font-extrabold">
               Hey, I'm{" "}
               <span className="underline decoration-sky-500">Ismail</span>
@@ -82,7 +84,7 @@ function Hero() {
             <TextEffect per="word" variants={fancyVariants}>
               Full-Stack Developer.
             </TextEffect>
-          </div>
+          </h1>
           <div className="flex flex-wrap gap-2">
             {socials.map((val) => (
               <a key={val.name} href={val.link} target="_blank">
@@ -97,6 +99,7 @@ function Hero() {
           </div>
         </div>
       </div>
+      </section>
     </BackgroundBeamsWithCollision>
   );
 }
