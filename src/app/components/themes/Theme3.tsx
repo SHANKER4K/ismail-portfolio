@@ -8,6 +8,7 @@ import { Playfair_Display, JetBrains_Mono, Inter } from "next/font/google";
 import { useTheme } from "next-themes";
 import { Sun, Moon } from "lucide-react";
 import { portfolio } from "@/data/portfolio";
+import { Button } from "@/components/ui/button.tsx";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
@@ -101,6 +102,7 @@ export default function Theme3() {
     name,
     role,
     summary,
+    keywords,
     skills,
     projects,
     experience,
@@ -257,7 +259,7 @@ export default function Theme3() {
               </div>
 
               {/* RIGHT: Title block */}
-              <div ref={titleRef} className="md:w-1/2">
+              <div ref={titleRef} className="md:w-1/2 mb-4">
                 <p
                   className={`${jetbrains.className} mb-4 text-xs uppercase tracking-[0.2em]`}
                   style={{ color: colors.olive }}
@@ -276,13 +278,15 @@ export default function Theme3() {
                   className="mb-6 h-0.5 w-16 transition-colors duration-500"
                   style={{ backgroundColor: colors.olive }}
                 />
-                <p
-                  className={`${inter.className} max-w-md text-base leading-relaxed md:text-lg transition-colors duration-500`}
+                <div
+                  className={`${inter.className} flex gap-5 flex-wrap max-w-md text-base leading-relaxed md:text-lg transition-colors duration-500`}
                   style={{ color: colors.brown }}
                 >
-                  {summary}
-                </p>
-                <div className="mt-8 flex gap-6">
+                  {keywords.map((val, i) => {
+                    return <Button className="cursor-pointer">{val}</Button>;
+                  })}
+                </div>
+                <div className="mt-8 flex flex-wrap gap-6">
                   {Object.entries(social)
                     .filter(([k]) => k !== "email")
                     .map(([name, url]) => (
@@ -309,7 +313,7 @@ export default function Theme3() {
         {/* ============ ABOUT ============ */}
         <section
           id="about"
-          className="mb-24 border-t pt-16 md:mb-32 md:pt-24"
+          className="mb-62 border-t pt-16 md:pt-24"
           style={{ borderColor: border("olive") }}
         >
           <div ref={aboutRef} className="flex flex-col gap-10 md:flex-row">
@@ -392,7 +396,7 @@ export default function Theme3() {
         {/* ============ SKILLS ============ */}
         <section
           id="skills"
-          className="mb-24 border-t pt-16 md:mb-32 md:pt-24"
+          className="mb-24 border-t pt-10 md:mb-24 md:pt-16"
           style={{ borderColor: border("olive") }}
         >
           <div ref={skillsRef}>

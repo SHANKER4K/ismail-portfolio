@@ -25,7 +25,14 @@ export const portfolio = {
   role: "AI Engineer",
   tagline: "AI Engineer with a background in full-stack development",
   summary:
-    "AI Engineer with 2+ years focused on ML/DL. Specializing in NLP, LLMs, and computer vision — with hands-on experience fine-tuning Arabic language models, building face recognition systems, and implementing transformer architectures from scratch.",
+    "AI Engineer with 2+ years focused on ML/DL. Specializing in NLP, LLMs and computer vision",
+  keywords: [
+    "NLP",
+    "LLM",
+    "Computer Vision",
+    "Machine Learning",
+    "Deep Learning",
+  ],
 
   education: {
     degree: "B.Sc. Computer Science",
@@ -52,12 +59,7 @@ export const portfolio = {
       "NLP",
       "Computer Vision",
     ],
-    "Data & Visualization": [
-      "Jupyter",
-      "Pandas",
-      "Seaborn",
-      "Matplotlib",
-    ],
+    "Data & Visualization": ["Jupyter", "Pandas", "Seaborn", "Matplotlib"],
     Databases: ["PostgreSQL", "MySQL"],
     "Cloud & DevOps": ["Docker", "Git/GitHub", "Hugging Face"],
   },
@@ -68,14 +70,15 @@ export const portfolio = {
       description:
         "Face recognition system for employee attendance logging. Fine-tuned on LFW dataset using ArcFace loss head. Achieved 98% ranking. Built with PyTorch + OpenCV.",
       technologies: ["PyTorch", "OpenCV", "ArcFace", "LFW Dataset"],
-      githubLink: "https://github.com/SHANKER4K",
+      githubLink: "https://github.com/SHANKER4K/shkreco",
     },
     {
       title: "Hadith Segmentation",
       description:
         "Fine-tuned AraBERT to handle Hadith matn and sanad separation — distinguishing text content from chain of narration.",
       technologies: ["AraBERT", "Hugging Face", "NLP", "Transformers"],
-      hugginfaceLink: "https://huggingface.co/SHANKER4k/hadith-segmentation-bert",
+      hugginfaceLink:
+        "https://huggingface.co/SHANKER4k/hadith-segmentation-bert",
     },
     {
       title: "Transformer from Scratch",
@@ -90,7 +93,7 @@ export const portfolio = {
         "Admin dashboard for Riwaqi e-commerce platform with inventory management and analytics.",
       technologies: ["Next.js", "Tailwind CSS", "PostgreSQL", "Drizzle"],
       liveLink: "https://autovendr.vercel.app/",
-      githubLink: "https://github.com/SHANKER4K",
+      githubLink: "https://github.com/SHANKER4K/autovendr",
       image: "https://i.ibb.co/WNjc626d/image.png",
     },
     {
@@ -99,7 +102,7 @@ export const portfolio = {
         "Modern e-commerce platform with secure payment processing and user management.",
       technologies: ["Next.js", "Tailwind CSS", "PostgreSQL", "Drizzle"],
       liveLink: "https://riwaqi.vercel.app/",
-      githubLink: "https://github.com/SHANKER4K/",
+      githubLink: "https://github.com/SHANKER4K/riwaqi",
       image: "https://i.ibb.co/xKJZv87H/image.jpg",
     },
   ],
@@ -116,7 +119,7 @@ export const portfolio = {
         "Transitioned to JavaScript development, building web apps while strengthening algorithmic problem-solving on CodeWars.",
     },
     {
-      title: "2024–2025",
+      title: "2025–2026",
       content:
         "Deep-dived into ML/DL — read Hands-On Machine Learning, implemented CNN/RNN/LSTM models, studied the Attention Is All You Need paper, built Transformer from scratch, fine-tuned AraBERT, and built a production face recognition system.",
     },
