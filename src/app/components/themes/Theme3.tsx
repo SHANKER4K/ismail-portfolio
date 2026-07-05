@@ -8,7 +8,7 @@ import { Playfair_Display, JetBrains_Mono, Inter } from "next/font/google";
 import { useTheme } from "next-themes";
 import { Sun, Moon } from "lucide-react";
 import { portfolio } from "@/data/portfolio";
-import { Button } from "@/components/ui/button.tsx";
+import { Button } from "@/components/ui/button";
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
